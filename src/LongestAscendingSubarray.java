@@ -3,7 +3,7 @@
  */
 public class LongestAscendingSubarray {
     public static void main(String[] args) {
-        int[] array = {7,2,3,1,5,8,9,6,2,4,6,7,8};
+        int[] array = {7,2,3,1,5,8,9,6,2,4,6};
         System.out.println(new LongestAscendingSubarray().longestAscendingSubarray(array));
     }
 
