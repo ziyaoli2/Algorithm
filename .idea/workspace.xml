@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="511eaab1-0ca5-4f47-a1d7-7650f4d95cb2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ConnectEdge.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MergeKSorted.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java/ConnectEdge.class" afterPath="$PROJECT_DIR$/out/production/Java/ConnectEdge.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -95,11 +96,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectEdge.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConnectEdge.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ConnectEdge.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeKSorted.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MergeKSorted.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9">
+              <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -137,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/LongestAscendingSubarray.java" />
         <option value="$PROJECT_DIR$/src/LongestAscendingSubsequence.java" />
         <option value="$PROJECT_DIR$/src/ConnectEdge.java" />
+        <option value="$PROJECT_DIR$/src/MergeKSorted.java" />
       </list>
     </option>
   </component>
@@ -210,24 +224,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConnectEdge.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -240,22 +236,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.ConnectEdge">
-    <configuration default="false" name="LongestCommonSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="LongestCommonSubstring" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.MergeKSorted">
     <configuration default="false" name="LongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="LongestCommonSubsequence" />
@@ -304,6 +285,21 @@
     <configuration default="false" name="ConnectEdge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ConnectEdge" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MergeKSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="MergeKSorted" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -541,19 +537,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.LongestCommonSubstring" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LongestCommonSubsequence" />
-      <item index="2" class="java.lang.String" itemvalue="Application.LongestAscendingSubarray" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LongestAscendingSubsequence" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ConnectEdge" />
+      <item index="0" class="java.lang.String" itemvalue="Application.LongestCommonSubsequence" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LongestAscendingSubarray" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LongestAscendingSubsequence" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ConnectEdge" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MergeKSorted" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ConnectEdge" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LongestAscendingSubsequence" />
-        <item index="2" class="java.lang.String" itemvalue="Application.LongestAscendingSubarray" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LongestCommonSubsequence" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LongestCommonSubstring" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MergeKSorted" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ConnectEdge" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LongestAscendingSubsequence" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LongestAscendingSubarray" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LongestCommonSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -572,7 +568,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="383" y="24" width="1128" height="992" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -713,6 +709,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MergeKSorted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
